@@ -1,0 +1,17 @@
+<div class="container">
+  <h2>Consulta de Usuários</h2>
+  <table>
+    <thead>
+      <tr>
+        <th>Nome</th>
+        <th>Senha</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr *ngFor="let usuario of usuarios">
+        <td>{{ usuario.nome }}</td>
+        <td>{{ usuario.senha }}</td>
+      </tr>
+    </tbody>
+  </table>
+</div>
